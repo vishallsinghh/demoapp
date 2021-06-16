@@ -1,0 +1,73 @@
+.Logo-wrapper{
+    top: 34px;
+    position: absolute;
+    top: 20;
+    left: 30;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+}
+.Logo{
+    margin-top: -40px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 50vh;
+    z-index: -1;
+}
+.carousel-slider div img{
+    height: 100vh;
+    width: 100%;
+    /* z-index: -1; */
+
+}
+.college-name{
+    display: flex;
+    width: 70%;
+    color: #eee;
+    font-size: 1.5em;
+    align-items: center;
+    transform: translateX(280px);
+}
+.college-name h2{
+    width: 60%;
+    margin-left: 17px;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 25px;
+    color: #C7C1C1;
+    text-transform: uppercase;
+    z-index: 1;
+    transform: translateX(-230px);
+}
+.location-logo{
+    /* position: absolute; */
+    transform: translateX(-300px);
+}
+.second-loop{
+    font-size:0.8em ;
+}
+.navbar{
+    position: relative;
+    transform: translateY(-140px);
+}
+.Academic{
+    position: relative;
+    transform: translateY(130px);
+}

@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    /* width: 80%; */
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #eee;
+    width: 90%;
+    justify-content: space-between;
+
+}
+.navbar ul li{
+    /* padding-right: 40px; */
+    cursor: pointer;
+    padding: 20px;
+}
+.downArrow{
+    transform: translate3d(-20px,24px,0);
+    cursor: pointer;
+}

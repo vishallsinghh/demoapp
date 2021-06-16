@@ -1,0 +1,63 @@
+.Academic{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    /* background: yellow; */
+    /* height: 100vh; */
+}
+.inventory-box{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.inventory{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+    height: 300px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+.inventory div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 15px;
+    width: 320px;
+}
+.inventory div h1{
+    font-size: 1.6em;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.inventory div p{
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+.inventory.first{
+    background-color: #999999;
+}
+.inventory.third{
+    background-color: #999999;
+}
+.inventory.second{
+    background-color: #C21717 ;
+}
+.inventory.fourth{
+    background-color: #C21717 ;
+}
+.inventory:hover{
+    transform: scale(1.03);
+    z-index: 1;
+}
