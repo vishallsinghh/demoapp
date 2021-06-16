@@ -18,15 +18,16 @@ const Logo = () =>{
                 <div className='carousel'>
                 <AutoplaySlider
                     className='carousel-slider aws-btn'
-                    play={false}
+                    play={true}
                     cancelOnInteraction={true} // should stop playing on user interaction
-                    interval={6000}
+                    interval={4000}
                     
                     >
+                    <div data-src="https://coer.ac.in/wp-content/uploads/2021/02/slider4.jpg" />
                     <div data-src="https://www.edudictionary.com/wp-content/uploads/2021/01/COER-CAMPUSSTUDENT-1024x400.jpg" />
-                    <div data-src="/Assets/1.jpg" />
-                    <div data-src="/Assets/2.jpg" />
-                    <div data-src="/Assets/3.jpg" />
+                    
+                    <div data-src="https://coer.ac.in/wp-content/uploads/2021/02/slider7.jpg" />
+                 
                 </AutoplaySlider>
                 </div>
                 
